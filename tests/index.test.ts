@@ -5,7 +5,7 @@ describe("index.js", () => {
     server.close()
   })
 
-  test("Runs on port 3333 for testing", () => {
+  test("Runs on port 5555 for testing", () => {
     expect(server.address()).toEqual({
       address: "::",
       family: "IPv6",
