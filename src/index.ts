@@ -12,10 +12,7 @@ const port = process.env.PORT
 if (!port) console.error("NO PORT SET")
 
 app.use(express.json())
-
-/**
- * @Routes
- */
+app.use(express.urlencoded({ extended: true }))
 
 app.get("/", indexRouter)
 
