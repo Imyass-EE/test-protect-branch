@@ -15,7 +15,7 @@ describe("IndexController", () => {
     expect(response.status).toBe(200)
     expect(response.body).toEqual({
       status: "success",
-      message: "Test App: API Service Deployed Successfully!",
+      message: "Test App: API Service Deployed Successfully",
     })
   })
 })
