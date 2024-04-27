@@ -9,3 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ArtiomTr/jest-coverage-report-action@v2
+      with:
+        custom-title: Test coverage report (Jest)
+        output: report-markdown, comment
+        annotations: none
