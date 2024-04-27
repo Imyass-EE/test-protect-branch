@@ -10,7 +10,6 @@ describe("IndexController", () => {
   afterAll(() => {
     server.close()
   })
-
   it("should return status 200 and 'Test App: API Service' message", async () => {
     const response = await request(app).get("/")
     expect(response.status).toBe(200)
