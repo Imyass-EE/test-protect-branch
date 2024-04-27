@@ -2,7 +2,6 @@ import request from "supertest"
 import app, { server } from "../../src/index"
 
 describe("IndexController", () => {
-  
   beforeEach(() => {
     jest.spyOn(console, "log").mockImplementation(() => {})
     jest.resetModules()
@@ -17,7 +16,7 @@ describe("IndexController", () => {
     expect(response.status).toBe(200)
     expect(response.body).toEqual({
       status: "success",
-      message: "Test App: API Service",
+      message: "Test App: API Service Deployed Successfully!",
     })
   })
 })
