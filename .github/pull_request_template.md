@@ -6,12 +6,8 @@ _What is this PR changing_
 
 _Why is this change happening_
 
-## Video of the change
-
-_Record a loom video explaining the change_
-
 ## Screenshots
 
 _Screenshots of the changes_
 
-**Ticket:** https://mosspam.atlassian.net/browse/LTN-XX
+**Ticket:** https://imyass.atlassian.net/browse/XXXX
