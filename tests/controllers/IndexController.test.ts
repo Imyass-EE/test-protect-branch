@@ -2,6 +2,7 @@ import request from "supertest"
 import app, { server } from "../../src/index"
 
 describe("IndexController", () => {
+  
   beforeEach(() => {
     jest.spyOn(console, "log").mockImplementation(() => {})
     jest.resetModules()
