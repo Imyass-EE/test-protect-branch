@@ -9,7 +9,7 @@ module.exports = {
   preset: "ts-jest/presets/js-with-ts",
   testEnvironment: "node",
   collectCoverage: true,
-  coverageDirectory: "./coverage/",
+  coverageDirectory: "<rootDir>/coverage/",
   coverageProvider: "v8",
   coverageReporters: ["html", ["text", { skipFull: true }]],
   collectCoverageFrom: [
